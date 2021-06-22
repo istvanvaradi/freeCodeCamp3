@@ -1,0 +1,41 @@
+body{
+margin:0; 
+
+}
+#form{
+  position:inline;
+}
+#header{
+  display:flex;
+  flex-direction:column;
+}
+
+.navbar{
+  width:100%;
+}
+#title{
+position:relative;
+ margin-top:15%;
+ 
+} @media only screen and (max-width: 560px){
+  #title{margin-top:30%;}
+}
+#header-img{
+  margin-left:30%  
+}
+
+#video{
+  margin-left:30%
+  display:flex;
+}
+.btn,
+.label-form{
+  display:block;
+  
+}
+
+input{margin: 10px 0 10px 0;}
+
+.form-contaner{
+  align-self:right;
+}
